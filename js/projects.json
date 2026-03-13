@@ -1,0 +1,117 @@
+{
+  "projects": [
+    {
+      "id": "proyecto-hotel",
+      "title": "Sistema de Gestión Hotelera",
+      "type": "Proyecto Académico",
+      "skills": ["php"],
+      "description": "Plataforma desarrollada en Laravel para la administración integral de un hotel...",
+      "description_full": "Plataforma desarrollada en Laravel para la administración integral de un hotel, con gestión de reservas, habitaciones, promociones y perfiles de usuario. Incluye flujos completos para creación, edición y cancelación de reservas, aviso y validación de pagos, control de ocupación y dashboard administrativo con indicadores diarios. Implementa autenticación con roles, middleware, componentes dinámicos con Livewire, vistas Blade y persistencia en PostgreSQL, ofreciendo una arquitectura modular, escalable y orientada a buenas prácticas.",
+      "tech": [
+        { "label": "Laravel", "color": "bg-danger" },
+        { "label": "Blade", "color": "bg-secondary" },
+        { "label": "Livewire", "color": "bg-info" },
+        { "label": "PostgreSQL", "color": "bg-primary" }
+      ],
+      "carousel": [
+        "image/YgHotel/home_1.png",
+        "image/YgHotel/habitaciones_1.png",
+        "image/YgHotel/reservar_ahora_cliente.png",
+        "image/YgHotel/detalle_reserva_aviso_pago.png",
+        "image/YgHotel/confirmar_reserva.png",
+        "image/YgHotel/dashboard.png",
+        "image/YgHotel/detalle_reserva_admin.png",
+        "image/YgHotel/edit_habitaciones.png",
+        "image/YgHotel/crear_habitacion.png",
+        "image/YgHotel/gestor_usuarios.png",
+        "image/YgHotel/gestor_reserva_admin.png",
+        "image/YgHotel/reservas_curso_admin.png"
+      ],
+      "repo": "https://github.com/hermsale/laMontana_web.git",
+      "link": null
+    },
+    {
+      "id": "proyecto-estacionamiento",
+      "title": "Sistema de Gestión de Estacionamientos",
+      "type": "Proyecto Académico",
+      "skills": ["java"],
+      "description": "Sistema desarrollado en Java/Spring Boot para la gestión integral de un estacionamiento...",
+      "description_full": "Sistema desarrollado en Java/Spring Boot para la gestión integral de un estacionamiento, incluyendo ingresos, egresos, contratos por hora/día/mes, servicios adicionales, recargos y facturación automática. Implementa arquitectura en capas con controladores, servicios y repositorios, persistencia en MySQL y vistas con Thymeleaf, aplicando principios SOLID, manejo robusto de excepciones y una estructura modular, escalable y mantenible.",
+      "tech": [
+        { "label": "Java", "color": "bg-warning" },
+        { "label": "Spring Boot", "color": "bg-primary" },
+        { "label": "MySQL", "color": "bg-success" },
+        { "label": "Thymeleaf", "color": "bg-secondary" }
+      ],
+      "carousel": [
+        "image/gestorEstacionamiento/principal_1.png",
+        "image/gestorEstacionamiento/menu_ingreso.png",
+        "image/gestorEstacionamiento/plano_estacionamiento.png",
+        "image/gestorEstacionamiento/menu_retiro.png",
+        "image/gestorEstacionamiento/facturacion.png",
+        "image/gestorEstacionamiento/principal_2.png",
+        "image/gestorEstacionamiento/principal_3.png"
+      ],
+      "repo": "https://github.com/hermsale/gestor_estacionamiento_web",
+      "link": "https://gestor-estacionamiento-web.onrender.com/"
+    },
+    {
+      "id": "proyecto-imprenta",
+      "title": "Sistema de Gestión para Imprentas",
+      "type": "Proyecto Académico",
+      "skills": ["javascript"],
+      "description": "Plataforma web para la gestión de pedidos y catálogo de una imprenta...",
+      "description_full": "Plataforma web para la gestión de pedidos y catálogo de una imprenta, desarrollada con React y Node.js. Permite visualizar productos, agregar trabajos al carrito, gestionar pedidos y administrar información del usuario. Integra autenticación mediante Google OAuth y manejo de sesiones con JWT. El backend expone una API REST con Express y persistencia en SQLite, utilizando una arquitectura modular con separación de controladores, rutas y middlewares, pensada para ser escalable y mantenible.",
+      "tech": [
+        { "label": "JavaScript", "color": "bg-warning text-dark" },
+        { "label": "React", "color": "bg-info text-dark" },
+        { "label": "Node.js", "color": "bg-success" },
+        { "label": "SQLite", "color": "bg-info" },
+        { "label": "Google OAuth", "color": "bg-danger" },
+        { "label": "JWT", "color": "bg-primary" }
+      ],
+      "carousel": [
+        "image/laMontanaImprenta/home_1.png",
+        "image/laMontanaImprenta/add_cart_home_1.png",
+        "image/laMontanaImprenta/cart_1.png",
+        "image/laMontanaImprenta/print.png",
+        "image/laMontanaImprenta/side_menu.png",
+        "image/laMontanaImprenta/login_google.png",
+        "image/laMontanaImprenta/user_log.png",
+        "image/laMontanaImprenta/mis_datos.png"
+      ],
+      "repo": "https://github.com/hermsale/laMontana_web.git",
+      "link": null
+    },
+    {
+      "id": "proyecto-recordatorios",
+      "type": "Curso Platzi - React.js: Navegación con React Router",
+      "skills": ["javascript"],
+      "title": "Administrador de Recordatorios",
+
+      "description": "Aplicación desarrollada en React para crear, editar, buscar y eliminar recordatorios, aprendiendo navegación profesional con React Router, manejo avanzado de estado y patrones de render.",
+      "description_full": "Aplicación construida durante el curso de React.js: Navegación con React Router de Platzi. Permite gestionar recordatorios de manera completa: creación, edición, marcado, eliminación y filtrado mediante un buscador dinámico. La arquitectura aplica useReducer para el manejo centralizado del estado, React Router DOM para navegación con rutas anidadas y parámetros, patrones de composición, control fino del renderizado y buenas prácticas de diseño. Es una app liviana, modular y altamente escalable, pensada para demostrar dominio profesional de React, Router y manejo de estados.",
+      "tech": [
+        { "label": "React", "color": "bg-info text-dark" },
+        { "label": "JavaScript", "color": "bg-warning text-dark" },
+        { "label": "React Router DOM", "color": "bg-danger" },
+        { "label": "useReducer", "color": "bg-primary" },
+        { "label": "Estado Global", "color": "bg-success" },
+        { "label": "Patrones de Render", "color": "bg-secondary" }
+      ],
+
+      "repo": "https://github.com/hermsale/react-todoApp-router",
+      "link": "https://hermsale.github.io/react-todoApp-router/",
+
+      "carousel": [
+        "image/todoApp/home_1.png",
+        "image/todoApp/home_3.png",
+        "image/todoApp/home_2.png",
+        "image/todoApp/agregar_1.png",
+        "image/todoApp/busqueda.png",
+        "image/todoApp/modificar_1.png",
+        "image/todoApp/recarga_1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Alejandro Herms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#hero">AH</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Alternar navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="container">
+  <img src="image/image.jpg" alt="Foto de Alejandro Herms" class="rounded-circle mb-4" width="350" height="350">
+  <h1 class="display-3 fw-bold">Alejandro Herms</h1>
+  <h2 class="text-muted mb-4">Desarrollador de Software</h2>
+  <a href="#projects" class="btn btn-primary btn-lg">Ver Proyectos</a>
+  <!-- SOBRE MÍ -->
+  <section id="about" class="container py-1">
+    <p class="lead text-center text-body">
+      ¡Hola! Soy Alejandro, estudiante de último año de Análisis de Sistemas en la Escuela Da Vinci (promedio 9,45) y apasionado por crear soluciones digitales limpias y efectivas.
+    </p>
+    <p class="text-center text-lg-center">
+      Este portfolio reúne algunos de los proyectos más destacados de mi carrera y los cursos que realice, donde se pueden apreciar las distintas tecnologías, lenguajes y herramientas que definen mi perfil profesional.
+      Me considero una persona proactiva, curiosa y orientada a mejorar continuamente. Disfruto aprender nuevas tecnologías, escribir código limpio y aplicar buenas prácticas de desarrollo para construir soluciones claras, eficientes y mantenibles.
+      Mi objetivo es seguir creciendo como desarrollador, enfrentando nuevos desafíos y contribuyendo a proyectos que tengan un impacto positivo. ¡Gracias por visitar mi portfolio!
+    </p>
+  </section>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="container py-5">
+  <h2 class="text-center mb-4">Skills</h2>
+  <div class="row text-center">
+    <div class="col-md-4 mb-3">
+      <div class="skill-box" onclick="filtrarProyectos('java')">
+        <h3>Java</h3>
+        <h4>Spring Boot</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="skill-box" onclick="filtrarProyectos('php')">
+        <h3>PHP</h3>
+        <h4>Laravel</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="skill-box" onclick="filtrarProyectos('javascript')">
+        <h3>Javascript</h3>
+        <h4>React</h4>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="skill-box" onclick="filtrarProyectos('mysql')">
+        <h4>MySQL</h4>
+        <h4>PostgreSQL</h4>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="skill-box">
+        <h4>GitHub</h4>
+        <h4>Figma</h4>
+        <h4>AWS, Azure</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="projects" class="container py-5">
+  <h2 class="text-center mb-5">Proyectos</h2>
+  <div class="row g-4" id="projects-container"></div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-4">Contacto</h2>
+  <div class="text-center">
+    <p class="lead">Podés encontrarme en:</p>
+    <p>
+  <a href="https://github.com/hermsale"
+     target="_blank"
+     class="btn btn-dark me-2"
+     rel="noopener noreferrer">
+    <i class="fab fa-github me-1"></i> GitHub
+  </a>
+
+  <a href="https://www.linkedin.com/in/alejandro-hugo-herms/"
+     target="_blank"
+     class="btn btn-primary"
+     rel="noopener noreferrer">
+    <i class="fab fa-linkedin me-1"></i> LinkedIn
+  </a>
+</p>
+    <p>Email: <strong>Hermsale@gmail.com</strong></p>
+  </div>
+</section>
+
+<footer class="text-center py-3 bg-light mt-4">
+  <small>© 2026 - Alejandro Herms</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/cargaInicialProyectos.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
+<!-- modal -->
+  <div class="modal fade" id="modalImagen" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+
+          <div id="carouselModal" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner" id="carouselModalInner">
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselModal" data-bs-slide="prev" title="Imagen anterior">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselModal" data-bs-slide="next" title="Siguiente imagen">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
+ 

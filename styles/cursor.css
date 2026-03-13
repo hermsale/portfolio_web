@@ -1,0 +1,16 @@
+.spark {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(white, #ffd700, #ffaa00);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  animation: sparkFade 0.8s forwards;
+  box-shadow: 0 0 10px #d6b80c;
+}
+
+@keyframes sparkFade {
+  0% { transform: scale(1) translateY(0); opacity: 1; }
+  100% { transform: scale(0) translateY(-30px); opacity: 0; }
+}

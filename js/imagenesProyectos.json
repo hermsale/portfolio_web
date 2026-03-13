@@ -1,0 +1,44 @@
+{
+  "imprenta": [
+    "image/laMontanaImprenta/home_1.png",
+    "image/laMontanaImprenta/add_cart_home_1.png",
+    "image/laMontanaImprenta/cart_1.png",
+    "image/laMontanaImprenta/print.png",
+    "image/laMontanaImprenta/side_menu.png",
+    "image/laMontanaImprenta/login_google.png",
+    "image/laMontanaImprenta/user_log.png",
+    "image/laMontanaImprenta/mis_datos.png"
+  ],
+  "estacionamiento": [
+    "image/gestorEstacionamiento/principal_1.png",
+    "image/gestorEstacionamiento/menu_ingreso.png",
+    "image/gestorEstacionamiento/plano_estacionamiento.png",
+    "image/gestorEstacionamiento/menu_retiro.png",
+    "image/gestorEstacionamiento/facturacion.png",
+    "image/gestorEstacionamiento/principal_2.png",
+    "image/gestorEstacionamiento/principal_3.png"
+  ],
+  "hotel": [
+    "image/YgHotel/home_1.png",
+    "image/YgHotel/habitaciones_1.png",
+    "image/YgHotel/reservar_ahora_cliente.png",
+    "image/YgHotel/detalle_reserva_aviso_pago.png",
+    "image/YgHotel/confirmar_reserva.png",
+    "image/YgHotel/dashboard.png",
+    "image/YgHotel/detalle_reserva_admin.png",
+    "image/YgHotel/edit_habitaciones.png",
+    "image/YgHotel/crear_habitacion.png",
+    "image/YgHotel/gestor_usuarios.png",
+    "image/YgHotel/gestor_reserva_admin.png",
+    "image/YgHotel/reservas_curso_admin.png"
+  ],
+  "recordatorios": [
+    "image/TodoApp/home_1.png",
+    "image/TodoApp/home_3.png",
+    "image/TodoApp/home_2.png",
+    "image/TodoApp/agregar_1.png",
+    "image/TodoApp/busqueda.png",
+    "image/TodoApp/modificar_1.png",
+    "image/TodoApp/recarga_1.png"
+  ]
+}

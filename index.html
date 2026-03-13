@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark"> <!-- Dark mode por defecto – podés togglearlo -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alejandro Herms | Desarrollador Full Stack</title>
+  
+  <!-- Bootstrap 5.3+ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Google Fonts – tipografías modernas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Tu CSS custom (sugerido abajo) -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="stylesheet" href="styles/cursor.css">
+  
+  <!-- Favicon (agregá uno bueno) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar más minimal y con glassmorphism o sombra suave -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark/80 backdrop-blur fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#hero">AH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO – más grande, con gradiente y foto destacada -->
+  <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center text-center bg-gradient-hero position-relative overflow-hidden">
+    <div class="container position-relative z-2">
+      <img src="image/image.jpg" alt="Alejandro Herms" class="rounded-circle img-fluid shadow-lg mb-4" width="280" height="280" loading="lazy">
+      <h1 class="display-2 fw-bold mb-3 animate__animated animate__fadeInDown">Alejandro Herms</h1>
+      <p class="lead fs-3 text-secondary mb-5">Analista de Sistemas • Desarrollador Full Stack </p>
+      <a href="#projects" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow">Explorar Proyectos →</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 text-center">
+          <h2 class="display-5 fw-bold mb-4">¡Hola! Soy Alejandro</h2>
+          <p class="lead fs-4 mb-4">
+            Estudiante de último año de Analista de Sistemas en Escuela Da Vinci (promedio 9,45). Apasionado por la tecnología y la programación.          </p>
+          <p class="fs-5 text-secondary">
+            Este portfolio reúne mis proyectos más destacados de la carrera, trabajos prácticos y cursos especializados. Ahí vas a ver las tecnologías, lenguajes y herramientas que definen mi stack actual.
+              Soy proactivo, curioso y siempre busco mejorar. Me encanta aprender nuevas techs, escribir código limpio y aplicar buenas prácticas para crear soluciones claras, eficientes y fáciles de mantener.
+              Mi meta es seguir creciendo como desarrollador, enfrentar desafíos interesantes y aportar en proyectos con impacto real. ¡Gracias por pasar por acá! 🚀
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="skills" class="py-5 bg-dark-subtle">
+  <div class="container">
+    <h2 class="text-center display-5 fw-bold mb-5">Habilidades clave</h2>
+    
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Java + Spring Boot -->
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="skill-card p-4 rounded-4 shadow hover-scale text-center highlight-framework" 
+             onclick="filtrarProyectos('java')">
+          <i class="fab fa-java fs-1 mb-2 text-warning"></i> <!-- Lenguaje base -->
+          <h3 class="fw-bold mb-2">Java</h3>
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fas fa-leaf fs-3 text-success"></i> <!-- Ícono Spring (hoja verde oficial) -->
+            <p class="text-success fw-bold fs-5 mb-0">Spring Boot</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHP + Laravel -->
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="skill-card p-4 rounded-4 shadow hover-scale text-center highlight-framework" 
+             onclick="filtrarProyectos('php')">
+          <i class="fab fa-php fs-1 mb-2 text-danger"></i> <!-- Lenguaje base -->
+          <h3 class="fw-bold mb-2">PHP</h3>
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fab fa-laravel fs-3 text-pink"></i> <!-- Laravel brand icon -->
+            <p class="text-danger fw-bold fs-5 mb-0">Laravel</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript + React -->
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="skill-card p-4 rounded-4 shadow hover-scale text-center highlight-framework" 
+             onclick="filtrarProyectos('javascript')">
+          <i class="fab fa-js fs-1 mb-2 text-warning"></i> <!-- Lenguaje base -->
+          <h3 class="fw-bold mb-2">JavaScript</h3>
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fab fa-react fs-3 text-info"></i> <!-- React brand icon -->
+            <p class="text-info fw-bold fs-5 mb-0">React</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bases de datos (simple, sin framework extra) -->
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="skill-card p-4 rounded-4 shadow hover-scale text-center" 
+             onclick="filtrarProyectos('mysql')">
+          <i class="fas fa-database fs-2 mb-3 text-secondary"></i>
+          <h3 class="fw-bold mb-1">Bases de datos</h3>
+          <p class="text-secondary mb-0">MySQL • PostgreSQL</p>
+        </div>
+      </div>
+
+      <!-- Herramientas -->
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="skill-card p-4 rounded-4 shadow hover-scale text-center" 
+             onclick="filtrarProyectos('tools')">
+          <i class="fas fa-tools fs-2 mb-3 text-muted"></i>
+          <h3 class="fw-bold mb-1">Herramientas</h3>
+          <p class="text-secondary mb-0">GitHub • Figma • AWS • Azure</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- PROJECTS – Masonry o grid con cards modernas -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center display-5 fw-bold mb-5">Proyectos destacados</h2>
+      <div class="row g-4" id="projects-container">
+        <!-- Tus proyectos se cargan por JS – sugerencia: cards con imagen grande arriba, tech badges abajo -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO – más visual con íconos grandes -->
+  <section id="contact" class="py-5 bg-gradient-contact">
+    <div class="container text-center">
+      <h2 class="display-5 fw-bold mb-4">Hablemos</h2>
+      <p class="lead mb-5">Estoy abierto a nuevas oportunidades y charlas técnicas.</p>
+      <div class="d-flex justify-content-center gap-4 flex-wrap">
+        <a href="https://github.com/hermsale" target="_blank" class="btn btn-outline-light btn-lg px-4">
+          <i class="fab fa-github fs-3 me-2"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/alejandro-hugo-herms/" target="_blank" class="btn btn-outline-primary btn-lg px-4">
+          <i class="fab fa-linkedin fs-3 me-2"></i> LinkedIn
+        </a>
+      </div>
+      <p class="mt-4 fs-5">Email: <a href="mailto:Hermsale@gmail.com" class="text-primary">Hermsale@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-black text-muted small">
+    © 2026 Alejandro Herms • Hecho con ❤️ y mucho café
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/cargaInicialProyectos.js"></script>
+  <script src="./js/script.js"></script>
+
+  <!-- Opcional: AOS para animaciones al scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+  <script src="./js/cursor.js"></script> 
+
+  <!-- Modal sigue igual, pero podés mejorar con más controles -->
+ <div class="modal fade" id="modalImagen" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+
+          <div id="carouselModal" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner" id="carouselModalInner">
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselModal" data-bs-slide="prev" title="Imagen anterior">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselModal" data-bs-slide="next" title="Siguiente imagen">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
