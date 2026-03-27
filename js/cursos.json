@@ -1,0 +1,117 @@
+{
+    "cursos": [
+        {
+            "id": 6,
+            "lenguaje": "JavaScript",
+            "tema": "Curso Básico de JavaScript",
+            "nivel": "Básico",
+            "descripcion": "Aprendí los fundamentos de JavaScript, desde variables, funciones y estructuras de control hasta manipulación del DOM. Desarrollé habilidades esenciales para comprender la lógica del desarrollo web moderno.",
+            "duracion": "23 clases",
+            "certificado_img": "../image/cursos/diploma-basico-javascript_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+        {
+            "id": 8,
+            "lenguaje": "JavaScript",
+            "tema": "Curso Práctico de JavaScript",
+            "nivel": "Intermedio",
+            "descripcion": "Fortalecí mis habilidades en JavaScript aplicando conceptos avanzados como closures, prototipos, manejo de eventos y manipulación del DOM. Desarrollé proyectos prácticos que potenciaron mi capacidad para crear aplicaciones web dinámicas y eficientes.",
+            "duracion": "23 clases",
+            "certificado_img": "../image/cursos/diploma-javascript-practico_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+        {
+            "id": 5,
+            "lenguaje": "JavaScript",
+            "tema": "Curso de Asincronismo con JavaScript",
+            "nivel": "Intermedio",
+            "descripcion": "Consolidé el manejo del asincronismo en JavaScript —callbacks, promesas y async/await— aplicándolo al consumo de APIs y la creación de flujos más eficientes. Esto fortaleció mi capacidad para desarrollar aplicaciones dinámicas, escalables y con mejores tiempos de respuesta.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-asincronismo-js_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+
+        {
+            "id": 9,
+            "lenguaje": "React",
+            "tema": "Curso de Introducción a React.JS",
+            "nivel": "Básico",
+            "descripcion": "Aprendí los fundamentos de React.JS, incluyendo componentes, props, estado y ciclo de vida. Construí interfaces dinámicas aplicando los principios esenciales del desarrollo web moderno.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-react_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+        {
+            "id": 10,
+            "lenguaje": "React",
+            "tema": "Curso de React.JS: Manejo Profesional del Estado",
+            "nivel": "Básico",
+            "descripcion": "Aprendí a gestionar el estado en React.JS utilizando herramientas como Hooks, Context API y Redux. Implementé patrones de arquitectura que permiten construir aplicaciones escalables, organizadas y fáciles de mantener.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-react-estado_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+        {
+            "id": 11,
+            "lenguaje": "React",
+            "tema": "Curso de React.JS: Navegación con React Router",
+            "nivel": "Intermedio",
+            "descripcion": "Aprendí a implementar navegación en aplicaciones React.JS utilizando React Router, trabajando con rutas dinámicas, anidadas y protegidas. Incorporé principios esenciales para construir aplicaciones modernas y bien estructuradas.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-react-router_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        },
+
+        {
+            "id": 3,
+            "lenguaje": "Angular",
+            "tema": "Curso de Fundamentos de Angular",
+            "nivel": "Básico",
+            "descripcion": "Domina los fundamentos esenciales de Angular, desde su arquitectura basada en componentes hasta directivas, servicios y manejo básico del flujo de datos. Un curso ideal para construir una base sólida antes de avanzar a temas más complejos.",
+            "duracion": "23 clases",
+            "certificado_img": "../image/cursos/diploma-angular-fundamentos_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2478-course/diploma/detalle/"
+        },
+        {
+            "id": 4,
+            "lenguaje": "Angular",
+            "tema": "Curso de Angular Router: Lazy Loading y Programación Modular",
+            "nivel": "Básico",
+            "descripcion": "Aprendí a configurar rutas avanzadas en Angular Router, implementando Lazy Loading y arquitectura modular. Trabajé con rutas dinámicas, vistas anidadas, guardianes de navegación y optimización del flujo de un e-commerce. Incluye despliegues automáticos en Netlify.",
+            "duracion": "25 clases",
+            "certificado_img": "../image/cursos/diploma-angular-modular_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2478-course/diploma/detalle/"
+        },
+        {
+            "id": 2,
+            "lenguaje": "Angular",
+            "tema": "Curso de Angular: Componentes y Servicios",
+            "nivel": "Intermedio",
+            "descripcion": "Desarrollé aplicaciones escalables con Angular a través del uso avanzado de componentes, servicios y gestión de estado. Construí un e-commerce aplicando Inputs, Outputs, Pipes y reactividad con servicios, logrando arquitectura modular y mantenible.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-angular-componentes_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2486-course/diploma/detalle/"
+        },
+        {
+            "id": 1,
+            "lenguaje": "Angular",
+            "tema": "Curso de Consumo de APIs REST con Angular",
+            "nivel": "Intermedio",
+            "descripcion": "Aprendí a consumir APIs REST con Angular desarrollando un e-commerce completo. Implementé Angular HTTP, autenticación, manejo de tokens y conexión mediante HTTP Client. Practiqué solicitudes GET, POST, PUT y DELETE para construir aplicaciones seguras, escalables y robustas.",
+            "duracion": "23 clases",
+            "certificado_img": "../image/cursos/diploma-angular-apis_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2478-course/diploma/detalle/"
+        },
+
+        {
+            "id": 7,
+            "lenguaje": "HTML & CSS",
+            "tema": "Curso Básico de HTML & CSS",
+            "nivel": "Básico",
+            "descripcion": "Aprendí los fundamentos de HTML y CSS, desde la estructura semántica de una página hasta la creación de estilos modernos y responsivos. Desarrollé la base necesaria para construir interfaces web claras y profesionales.",
+            "duracion": "26 clases",
+            "certificado_img": "../image/cursos/diploma-html-css_page-0001.jpg",
+            "url": "https://platzi.com/p/hermsale/curso/2985-course/diploma/detalle/"
+        }
+    ]
+}

@@ -18,7 +18,7 @@
   
   <!-- Tu CSS custom (sugerido abajo) -->
   <link rel="stylesheet" href="styles/style.css">
-
+  <link rel="stylesheet" href="styles/cardsCursos.css">
   <link rel="stylesheet" href="styles/cursor.css">
   
   <!-- Favicon (agregá uno bueno) -->
@@ -27,30 +27,55 @@
 <body class="bg-dark text-light">
 
   <!-- Navbar más minimal y con glassmorphism o sombra suave -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark/80 backdrop-blur fixed-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold fs-3" href="#hero">AH</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top shadow-sm">
+  <div class="container">
+
+    <!-- Logo centrado en mobile -->
+    <a class="navbar-brand fw-bold fs-3 mx-auto d-lg-none" href="#hero">AH</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav align-items-center gap-3">
+
+        <li class="nav-item">
+          <a class="nav-link nav-modern" href="#hero">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-modern" href="#about">Sobre mí</a>
+        </li>
+
+        <!-- Logo centrado en desktop -->
+        <li class="nav-item d-none d-lg-block mx-4">
+          <a class="navbar-brand fw-bold fs-2 nav-logo" href="#hero">AH</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-modern" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-modern" href="#projects">Proyectos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-modern" href="#contact">Contacto</a>
+        </li>
+
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- HERO – más grande, con gradiente y foto destacada -->
   <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center text-center bg-gradient-hero position-relative overflow-hidden">
     <div class="container position-relative z-2">
       <img src="image/image.jpg" alt="Alejandro Herms" class="rounded-circle img-fluid shadow-lg mb-4" width="280" height="280" loading="lazy">
       <h1 class="display-2 fw-bold mb-3 animate__animated animate__fadeInDown">Alejandro Herms</h1>
-      <p class="lead fs-3 text-secondary mb-5">Analista de Sistemas • Desarrollador Full Stack </p>
+      <p class="lead fs-3 text-secondary mb-5">Analista de Sistemas • Desarrollador Full Stack • Docente IT</p>
       <a href="#projects" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow">Explorar Proyectos →</a>
     </div>
   </section>
@@ -141,26 +166,34 @@
   </div>
 </section>
 
-  <!-- PROJECTS – Masonry o grid con cards modernas -->
+<!-- PROYECTOS -->
   <section id="projects" class="py-5">
     <div class="container">
       <h2 class="text-center display-5 fw-bold mb-5">Proyectos destacados</h2>
       <div class="row g-4" id="projects-container">
-        <!-- Tus proyectos se cargan por JS – sugerencia: cards con imagen grande arriba, tech badges abajo -->
       </div>
     </div>
   </section>
 
-  <!-- CONTACTO – más visual con íconos grandes -->
+  <!-- CURSOS -->
+<section id="cursos" class="py-5">
+  <div class="container">
+    <h2 class="text-center display-5 fw-bold mb-5">Cursos y Certificados</h2>
+    <div class="row g-4" id="cursos-container">
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACTO -->
   <section id="contact" class="py-5 bg-gradient-contact">
     <div class="container text-center">
       <h2 class="display-5 fw-bold mb-4">Hablemos</h2>
       <p class="lead mb-5">Estoy abierto a nuevas oportunidades y charlas técnicas.</p>
       <div class="d-flex justify-content-center gap-4 flex-wrap">
-        <a href="https://github.com/hermsale" target="_blank" class="btn btn-outline-light btn-lg px-4">
+        <a href="https://github.com/hermsale" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4">
           <i class="fab fa-github fs-3 me-2"></i> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/alejandro-hugo-herms/" target="_blank" class="btn btn-outline-primary btn-lg px-4">
+        <a href="https://www.linkedin.com/in/alejandro-hugo-herms/" target="_blank" rel="noopener" class="btn btn-outline-primary btn-lg px-4">
           <i class="fab fa-linkedin fs-3 me-2"></i> LinkedIn
         </a>
       </div>
@@ -175,13 +208,23 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./js/cargaInicialProyectos.js"></script>
+  <script src="./js/cursosCargaInicial.js"></script>
   <script src="./js/script.js"></script>
 
   <!-- Opcional: AOS para animaciones al scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init({ duration: 800, once: true });</script>
   <script src="./js/cursor.js"></script> 
+
+   <!-- Modal cursos -->
+  <div id="modalCursoImg" class="modal-imagen" onclick="cerrarModalCursoImg()">
+    <span class="cerrar">&times;</span>
+    <img class="modal-contenido" id="imgCursoModal" alt="Imagen del curso">
+    <div id="captionCurso"></div>
+  </div>
 
   <!-- Modal sigue igual, pero podés mejorar con más controles -->
  <div class="modal fade" id="modalImagen" tabindex="-1">
@@ -205,5 +248,7 @@
       </div>
     </div>
   </div>
+
+ 
 </body>
 </html>

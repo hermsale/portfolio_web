@@ -93,3 +93,20 @@ function toggleDescripcion(id) {
     boton.textContent = "Ver menos";
   }
 }
+
+// Funciones para el modal de imágenes de cursos
+function abrirModalCursoImg(src, titulo) {
+  console.log("Abriendo modal para curso:", titulo);
+  console.log("URL de la imagen del curso:", src);
+  const modal = document.getElementById("modalCursoImg");
+  const imgModal = document.getElementById("imgCursoModal");
+  const caption = document.getElementById("captionCurso");
+
+  modal.style.display = "block";
+  imgModal.src = src;
+  caption.innerText = titulo;
+}
+
+function cerrarModalCursoImg() {
+  document.getElementById("modalCursoImg").style.display = "none";
+}

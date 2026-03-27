@@ -83,35 +83,63 @@
       "repo": "https://github.com/hermsale/laMontana_web.git",
       "link": null
     },
-    {
-      "id": "proyecto-recordatorios",
-      "type": "Curso Platzi - React.js: Navegación con React Router",
-      "skills": ["javascript"],
-      "title": "Administrador de Recordatorios",
+      {
+        "id": "proyecto-recordatorios",
+        "type": "Curso Platzi - React.js: Navegación con React Router",
+        "skills": ["javascript"],
+        "title": "Administrador de Recordatorios",
 
-      "description": "Aplicación desarrollada en React para crear, editar, buscar y eliminar recordatorios, aprendiendo navegación profesional con React Router, manejo avanzado de estado y patrones de render.",
-      "description_full": "Aplicación construida durante el curso de React.js: Navegación con React Router de Platzi. Permite gestionar recordatorios de manera completa: creación, edición, marcado, eliminación y filtrado mediante un buscador dinámico. La arquitectura aplica useReducer para el manejo centralizado del estado, React Router DOM para navegación con rutas anidadas y parámetros, patrones de composición, control fino del renderizado y buenas prácticas de diseño. Es una app liviana, modular y altamente escalable, pensada para demostrar dominio profesional de React, Router y manejo de estados.",
-      "tech": [
-        { "label": "React", "color": "bg-info text-dark" },
-        { "label": "JavaScript", "color": "bg-warning text-dark" },
-        { "label": "React Router DOM", "color": "bg-danger" },
-        { "label": "useReducer", "color": "bg-primary" },
-        { "label": "Estado Global", "color": "bg-success" },
-        { "label": "Patrones de Render", "color": "bg-secondary" }
-      ],
+        "description": "Aplicación desarrollada en React para crear, editar, buscar y eliminar recordatorios, aprendiendo navegación profesional con React Router, manejo avanzado de estado y patrones de render.",
+        "description_full": "Aplicación construida durante el curso de React.js: Navegación con React Router de Platzi. Permite gestionar recordatorios de manera completa: creación, edición, marcado, eliminación y filtrado mediante un buscador dinámico. La arquitectura aplica useReducer para el manejo centralizado del estado, React Router DOM para navegación con rutas anidadas y parámetros, patrones de composición, control fino del renderizado y buenas prácticas de diseño. Es una app liviana, modular y altamente escalable, pensada para demostrar dominio profesional de React, Router y manejo de estados.",
+        "tech": [
+          { "label": "React", "color": "bg-info text-dark" },
+          { "label": "JavaScript", "color": "bg-warning text-dark" },
+          { "label": "React Router DOM", "color": "bg-danger" },
+          { "label": "useReducer", "color": "bg-primary" },
+          { "label": "Estado Global", "color": "bg-success" },
+          { "label": "Patrones de Render", "color": "bg-secondary" }
+        ],
 
-      "repo": "https://github.com/hermsale/react-todoApp-router",
-      "link": "https://hermsale.github.io/react-todoApp-router/",
+        "repo": "https://github.com/hermsale/react-todoApp-router",
+        "link": "https://hermsale.github.io/react-todoApp-router/",
 
-      "carousel": [
-        "image/todoApp/home_1.png",
-        "image/todoApp/home_3.png",
-        "image/todoApp/home_2.png",
-        "image/todoApp/agregar_1.png",
-        "image/todoApp/busqueda.png",
-        "image/todoApp/modificar_1.png",
-        "image/todoApp/recarga_1.png"
-      ]
-    }
+        "carousel": [
+          "image/todoApp/home_1.png",
+          "image/todoApp/home_3.png",
+          "image/todoApp/home_2.png",
+          "image/todoApp/agregar_1.png",
+          "image/todoApp/busqueda.png",
+          "image/todoApp/modificar_1.png",
+          "image/todoApp/recarga_1.png"
+        ]
+      },
+      {
+    "id": "movies-app",
+    "type": "Curso Platzi - JavaScript: Asincronismo",
+    "skills": ["javascript"],
+    "title": "Movies App",
+
+    "description": "Aplicación web SPA desarrollada con JavaScript para consultar una API pública de películas y series utilizando asincronismo, fetch y manejo de estado dinámico en el navegador.",
+    "description_full": "Aplicación creada durante el curso de Asincronismo con JavaScript de Platzi. Consume la API pública de TheMovieDB para obtener información de películas y series en tiempo real, usando funciones asíncronas, fetch, async/await y control de respuestas HTTP. La interfaz está construida con HTML, CSS y JavaScript puro, implementando renderizado dinámico del DOM, carga de resultados según categoría, búsqueda en tiempo real, manejo de estados de carga y modularidad basada en funciones reutilizables. Es una SPA liviana que demuestra dominio del asincronismo moderno aplicado a APIs reales.",
+    
+    "tech": [
+      { "label": "JavaScript", "color": "bg-warning text-dark" },
+      { "label": "HTML5", "color": "bg-danger" },
+      { "label": "CSS3", "color": "bg-primary" },
+      { "label": "Async/Await", "color": "bg-info text-dark" },
+      { "label": "Fetch API", "color": "bg-success" },
+      { "label": "Asincronismo", "color": "bg-secondary" }
+    ],
+
+    "repo": "https://github.com/hermsale/movies-app",
+    "link": "https://hermsale.github.io/movies-app/",
+
+    "carousel": [
+      "image/movies-app/home.png",
+      "image/movies-app/home2.png",
+      "image/movies-app/search.png",
+      "image/movies-app/description.png"
+    ]
+  }
   ]
 }

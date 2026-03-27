@@ -40,5 +40,11 @@
     "image/TodoApp/busqueda.png",
     "image/TodoApp/modificar_1.png",
     "image/TodoApp/recarga_1.png"
+  ],
+  "movies-app": [
+    "image/movies-app/home.png",
+    "image/movies-app/home2.png",
+    "image/movies-app/search.png",
+    "image/movies-app/description.png"
   ]
 }
