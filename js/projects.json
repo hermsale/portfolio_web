@@ -104,13 +104,13 @@
         "link": "https://hermsale.github.io/react-todoApp-router/",
 
         "carousel": [
-          "image/todoApp/home_1.png",
-          "image/todoApp/home_3.png",
-          "image/todoApp/home_2.png",
-          "image/todoApp/agregar_1.png",
-          "image/todoApp/busqueda.png",
-          "image/todoApp/modificar_1.png",
-          "image/todoApp/recarga_1.png"
+          "image/TodoApp/home_1.png",
+          "image/TodoApp/home_3.png",
+          "image/TodoApp/home_2.png",
+          "image/TodoApp/agregar_1.png",
+          "image/TodoApp/busqueda.png",
+          "image/TodoApp/modificar_1.png",
+          "image/TodoApp/recarga_1.png"
         ]
       },
       {
