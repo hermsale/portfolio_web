@@ -3,7 +3,7 @@ async function cargarCursos() {
   const data = await res.json();
   const contenedor = document.getElementById("cursos-container");
 
-contenedor.innerHTML = ""; // limpiar
+contenedor.innerHTML = ""; 
   const cursosContainer = document.getElementById("cursos-container");
 
     data.cursos.forEach(curso => {
