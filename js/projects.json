@@ -88,7 +88,6 @@
         "type": "Curso Platzi - React.js: Navegación con React Router",
         "skills": ["javascript"],
         "title": "Administrador de Recordatorios",
-
         "description": "Aplicación desarrollada en React para crear, editar, buscar y eliminar recordatorios, aprendiendo navegación profesional con React Router, manejo avanzado de estado y patrones de render.",
         "description_full": "Aplicación construida durante el curso de React.js: Navegación con React Router de Platzi. Permite gestionar recordatorios de manera completa: creación, edición, marcado, eliminación y filtrado mediante un buscador dinámico. La arquitectura aplica useReducer para el manejo centralizado del estado, React Router DOM para navegación con rutas anidadas y parámetros, patrones de composición, control fino del renderizado y buenas prácticas de diseño. Es una app liviana, modular y altamente escalable, pensada para demostrar dominio profesional de React, Router y manejo de estados.",
         "tech": [
@@ -104,13 +103,13 @@
         "link": "https://hermsale.github.io/react-todoApp-router/",
 
         "carousel": [
-          "image/TodoApp/home_1.png",
-          "image/TodoApp/home_3.png",
-          "image/TodoApp/home_2.png",
-          "image/TodoApp/agregar_1.png",
-          "image/TodoApp/busqueda.png",
-          "image/TodoApp/modificar_1.png",
-          "image/TodoApp/recarga_1.png"
+              "image/TodoApp/home_1.png",
+               "image/TodoApp/home_3.png",
+               "image/TodoApp/home_2.png",
+              "image/TodoApp/agregar_1.png",
+             "image/TodoApp/busqueda.png",
+              "image/TodoApp/modificar_1.png",
+              "image/TodoApp/recarga_1.png"
         ]
       },
       {

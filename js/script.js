@@ -15,6 +15,8 @@ async function cargarImagenesProyectos() {
 document.addEventListener("DOMContentLoaded", cargarImagenesProyectos);
 
   function abrirCarruselModal(proyecto,indice) {
+    console.log("imagenes proyecto ")
+    console.log(imagenesProyectos[proyecto]);
     let inner = document.getElementById("carouselModalInner");
     inner.innerHTML = "";
     imagenesProyectos[proyecto].forEach((src, i) => {
